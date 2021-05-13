@@ -9,7 +9,8 @@
             <thead>
                 <tr>
                     <th>id</th>
-                    <th>メッセージ</th>
+                    <th>タイトル</th>
+                    <th>タスク</th>
                 </tr>
             </thead>
             <tbody>
@@ -22,7 +23,6 @@
                 @endforeach
             </tbody>
         </table>
-   
 @endif
 
     {{-- メッセージ作成ページへのリンク --}}
