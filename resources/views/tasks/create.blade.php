@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <h1>メッセージ新規作成ページ</h1>
+    <h1>タスク新規作成ページ</h1>
 
     <div class="row">
         <div class="col-6">
@@ -10,7 +10,7 @@
 
 
                 <div class="form-group">
-                    {!! Form::label('status', 'タイトル:') !!}
+                    {!! Form::label('status', 'ステータス:') !!}
                     {!! Form::text('status', null, ['class' => 'form-control']) !!}
                 </div>
 
