@@ -26,3 +26,5 @@ Route::resource('tasks', 'TasksController');
 // Route::put('Task/{id}/edit', 'TasksController@edit');->name('Task.edit');
 // // index: showの補助ページ
 // Route::get('Task', 'TasksController@index');->name('Task.index');
+// メッセージを削除
+Route::delete('taskes/{id}', 'TasksController@destroy');
